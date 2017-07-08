@@ -1,0 +1,17 @@
+﻿  main.cpp
+c:\users\fedei\documents\visual studio 2017\projects\shadowvolume\shadowvolume\Shader.h(69): warning C4101: 'infoLog': variabile locale senza riferimenti
+c:\users\fedei\documents\visual studio 2017\projects\shadowvolume\shadowvolume\Shader.h(68): warning C4101: 'success': variabile locale senza riferimenti
+main.cpp(64): warning C4244: 'argomento': conversione da 'const double' a 'float'. Possibile perdita di dati.
+main.cpp(314): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+main.cpp(456): warning C4244: 'argomento': conversione da 'double' a 'float'. Possibile perdita di dati.
+SOIL.lib(stb_image_aug.obj) : warning LNK4075: '/EDITANDCONTINUE' ignorato a causa della specifica di '/OPT:ICF'
+LINK : warning LNK4098: la libreria predefinita 'LIBCMT' è in conflitto con l'utilizzo di altre librerie; utilizzare /NODEFAULTLIB:libreria
+LINK : warning LNK4098: la libreria predefinita 'MSVCRTD' è in conflitto con l'utilizzo di altre librerie; utilizzare /NODEFAULTLIB:libreria
+  Generazione codice in corso...
+  0 of 826 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generazione codice terminata
+glew32s.lib(glew.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'glew32s.lib(glew.obj)' o in 'C:\Users\fedei\Documents\Visual Studio 2017\Projects\ShadowVolume\Release\vc120.pdb'; oggetto collegato senza informazioni di debug
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: impossibile trovare il PDB 'SOIL.pdb' con 'SOIL.lib(stb_image_aug.obj)' o in 'C:\Users\fedei\Documents\Visual Studio 2017\Projects\ShadowVolume\Release\SOIL.pdb'; oggetto collegato senza informazioni di debug
+  ShadowVolume.vcxproj -> C:\Users\fedei\Documents\Visual Studio 2017\Projects\ShadowVolume\Release\ShadowVolume.exe
