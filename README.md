@@ -7,7 +7,7 @@ Computer Graphics and 3D.
 
 ## Implementation
 ### Step One
-Perform the normal rendering of the scene by establishing two output channels for the fragment shader, one for the environmental component, the other for the specular+diffuse one: both specular+diffuse and environmental must be saved for step 3.
+Perform the normal rendering of the scene by establishing two output channels for the fragment shader, one for the ambient component, the other for the specular+diffuse one: both ambient and specular+diffuse must be saved for step 3.
 ### Step Two
 Set the stencil buffer so that it is always successful and keeps track of the decrements (back faces) and increments (front faces), the geometry shader then takes care of the volumes of shadow, necessary to determine the occluded areas.
 
@@ -18,7 +18,7 @@ Depth fail method:
 4. Render the shadow volumes.
 
 ### Step Three
-Execute the blending of the environment and the specular+diffuse calculated at the first step, excluding from the rendering of the specular+diffuse the occluded pixels (indicated by the stencil buffer).
+Execute the blending of the ambient and the specular+diffuse calculated at the first step, excluding from the rendering of the specular+diffuse the occluded pixels (indicated by the stencil buffer).
 
 
 
