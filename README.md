@@ -9,9 +9,6 @@ Computer Graphics and 3D.
 Depth fail:
 
 1. Disable writes to the depth and color buffers.
-2. Use front-face culling.
-3. Set the stencil operation to increment on depth fail (only count shadows behind the object).
+2. Set the stencil operation to increment on depth fail (only count shadows behind the object) if front-face.
+3. Set the stencil operation to decrement on depth fail if back-face.
 4. Render the shadow volumes.
-5. Use back-face culling.
-6. Set the stencil operation to decrement on depth fail.
-7. Render the shadow volumes.
